@@ -1,0 +1,163 @@
+@import url(https://fonts.googleapis.com/css?family=Cinzel:700|Dosis|Old+Standard+TT);
+
+.lotion{
+    font-color:#FFFFE0;
+}
+body{
+    font-size: 16px;
+    background-color:#5B89B8;
+    text-align: center;
+}
+
+h1{
+    font-size: 6em;
+    font-family: 'Cinzel', 'Arial';
+    margin-bottom: -0.25em;
+}
+.about {
+    text-align:center;
+    color: #2B2B15;
+    font-family: 'Dosis';
+}
+#slogan{
+    font-size: 1.25em;
+}
+#ohm {
+    height: 1.5em;
+    padding-bottom:3em;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+div.container {
+    position: fixed;
+    float: left;
+    width: 100%;
+    clear: both;
+}
+
+.picture {
+    font-family: "Old Standard TT", "Arial";
+    color:#FFFFE0
+}
+
+ul {
+    list-style-type: none;
+    margin:0;
+    background-color:#182430;
+    padding: 1.5em;
+}
+
+li{
+    display: inline;
+}
+a{
+    color: inherit;
+    padding: 1.75em;
+    text-decoration: none
+ }
+
+ul a:hover{
+    background-color: #26394C;
+}
+
+#input {
+    display: none;
+}
+
+
+#left{
+    padding: 1em;
+    float: left;
+    width: 60%;
+}
+#one {  
+     color: #31353B;
+     margin-bottom: 2em;
+     border-style: solid;
+     border-width: 1%;
+     padding: 1em;
+}
+
+#two {  
+     color: #31353B;
+     margin-bottom: 2em;
+     border-style: solid;
+     border-width: 1%;
+     padding: 1em;
+}
+
+#right {
+    float: right;
+    width: 16em;
+    margin-left: -15em;
+    height: 1%; 
+    padding: 4em;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+footer{
+    background-color: #3B281D;
+    padding: .6em;
+}
+
+@media only screen and (max-width: 874px){
+    aside{
+        display:none;
+    }
+    #left {
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 530px){
+   ul{
+        padding:0;
+   }
+
+   li {
+        border-bottom: 1px solid #484A5E;
+        display: block;
+   }
+
+   li:last-of-type {
+        border-bottom: none;
+   }
+
+   a {
+         padding: 15px 0;
+        display: block;
+
+    }
+
+    #menu{
+        display: none;
+  }
+
+    label div{ /*hamburger symbol*/
+      width:20px;
+      border:none;
+      height:3px;
+      background-color:#182430;
+      margin:0 0 1px;
+      padding:1px;
+      display:block;
+}
+
+   ul a:hover {
+        background:none;
+}
+
+    #input:checked + #menu{
+        display:block;
+}
+
+}
